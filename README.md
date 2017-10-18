@@ -2,6 +2,8 @@
 
 A Polymer element for working with vis.js
 
+Currently WIP. The element renders a 2d graph with random y values over time (x).
+
 ## Install the Polymer-CLI
 
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your element locally.
