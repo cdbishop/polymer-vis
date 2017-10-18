@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="polymer-vis">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `polymer-vis`
+     * A Polymer element for working with vis.js
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class PolymerVis extends Polymer.Element {
+      static get is() { return 'polymer-vis'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'polymer-vis'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(PolymerVis.is, PolymerVis);
+  </script>
+</dom-module>
